@@ -34,3 +34,5 @@ cp ~/.dotfiles/zsh/.zshrc ~/.zshrc
 cp ~/.dotfiles/oh-my-zsh/custom/themes/lt.zsh-theme ~/.oh-my-zsh/custom/themes/lt.zsh-theme
 
 sed -i 's/ZSH_THEME=".*"/ZSH_THEME="lt"/' ~/.zshrc
+
+cp ~/.dotfiles/config/.config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
